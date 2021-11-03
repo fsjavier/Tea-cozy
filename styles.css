@@ -1,0 +1,158 @@
+html {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    opacity: 0.9;
+}
+
+header {
+    height: 69px;
+    border-bottom: solid 1px seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-left: 10px;
+    height: 50px;
+}
+
+.nav-item {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Mission */
+.mission {
+    background-image: url(./images/img-mission-background.webp);
+    min-height: 700px;
+    width: 95%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-mission {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-mission h2 {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.header-mission h4 {
+    margin: 0;
+    padding: 0.75rem;
+}
+
+
+/* Tea of the month */
+.featured-tea {
+    max-width: 1000px;
+    margin-top: 3rem;
+}
+
+.header-featured-tea {
+    text-align: center;
+}
+
+.tea-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.tea-pictures img {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.tea-pictures figure {
+    margin: 0.75rem 0.5rem ;
+}
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Locations */
+.locations {
+    background-image: url(./images/img-locations-background.jpeg);
+    display: flex;
+    flex-flow: column;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.locations-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    opacity: 1;
+}
+
+.locations h2 {
+    margin: 0;
+}
+
+.locations-box {
+    display: flex;
+    flex-flow: column;
+    background-color: black;
+    text-align: center;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.locations-box p {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 3;
+}
+
+/* Signature */
+.signature {
+    min-height: 200px;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Footer */
+footer{
+    text-align: left;
+    margin-left: 20px;
+}
